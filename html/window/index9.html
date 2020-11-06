@@ -4,47 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/layer.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
     <title>popup</title>
 </head>
 <body>
-    <div class="popup-display">
+    <div class="popup popup-display">
         <div class="title-position">
             <h1 id="title">무선 페이지 미리보기</h1>
         </div>
-        <div class="contents-box">
-            <table>
-                <caption>당첨목록표</caption>
-                <tbody>
-                    <tr>
-                        <th>제목</th>
-                        <td>기프티콘 이벤트 당첨!</td>
-                    </tr>
-                    <tr>
-                        <th>내용</th>
-                        <td>기프티콘 이벤트에 참여해 주셔서 감사합니다.</td>
-                    </tr>
-                    <tr>
-                        <th rowspan="5">상품</th>
-                    </tr>
-                    <tr>
-                        <td>선 물 : 아이스 아메리카노S(2잔)</td>
-                    </tr>
-                    <tr>
-                        <td>교환처 : 엔제리너스</td>
-                    </tr>
-                    <tr>
-                        <td>이용방법 : 휴대폰으로 기프티콘을 다운로드 받으신 후 해당 교환처에서 상품과 교환하세요.</td>
-                    </tr>
-                    <tr>
-                        <td>유효기간 : 30일</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="contents-box-top-line">
+            <div class="contents-box-bottom-line">
+                <div class="contents-box">
+                    <table class="table2">
+                        <caption>당첨목록수정표</caption>
+                        <tbody>
+                            <tr>
+                                <th class="th-color">제목</th>
+                                <td class="padding-diff">기프티콘 이벤트 당첨!</td>
+                            </tr>
+                            <tr>
+                                <th class="th-color">내용</th>
+                                <td class="padding-diff">기프티콘 이벤트에 참여해 주셔서 감사합니다.</td>
+                            </tr>
+                            <tr>
+                                <th class="th-color" rowspan="5">상품</th>
+                            </tr>
+                            <tr>
+                                <td class="dif-padding-td">◻︎<span class="letter-spacing">선</span> 물 : 아이스 아메리카노S(2잔)</td>
+                            </tr>
+                            <tr>
+                                <td class="dif-padding-td">◻︎교환처 : 엔제리너스</td>
+                            </tr>
+                            <tr>
+                                <td class="dif-padding-td">◻︎이용방법 : 휴대폰으로 기프티콘을 다운로드 받으신 후 해당 교환처에서 상품과 교환하세요.</td>
+                            </tr>
+                            <tr>
+                                <td class="dif-padding-td">◻︎유효기간:30일</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
         <div class="btn-position">
-            <button>확인</button>
+            <button id="orang-btn" class="btn">
+                <span class="btn btn-right">
+                    <span class="btn btn-mid">
+                        확인 
+                    </span>
+                </span>
+            </button>
         </div>
     </div>
 </body>

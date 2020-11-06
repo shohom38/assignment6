@@ -4,27 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/layer.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
     <title>popup</title>
 </head>
 <body>
-    <div class="popup-display">
+    <div class="popup popup-display">
         <div class="title-position">
             <h1 id="title">수신자 엑셀 업로드</h1>
         </div>
-        <div class="contents-box">
-            <input type="file">
-            <ul>
-                <li>엑셀 업로드 시 중복번호/스팸번호/오류 번호등의 휴대폰 번호가 포함되어<br>
-                    있을 경우에는 엑셀파일을 업로드 할 수가 없습니다.<br>
-                    오류번호가 포함되어 있을 경우 다시 파일을 다운로드 하여 체크된<br>
-                    휴대폰 번호를 수정 후 다시 업로드 해주세요.
-                </li>
-            </ul>
+        <div class="contents-box-top-line">
+            <div class="contents-box-bottom-line">
+                <div class="contents-box">
+                    <div class="find-files">
+                        <input type="text" class="upload-name" value="" disabled="disabled">
+                        <label for="file" class="btn-display btn-label-left">
+                            <span class="btn-display btn-label-right">
+                                <span class="btn-display btn-label-mid">
+                                    찾아보기
+                                </span>
+                            </span>
+                        </label>
+                        <input type="file" id="file" class="upload-hidden">
+                    </div>
+                    <ul>
+                        <li>엑셀 업로드 시 중복번호/스팸번호/오류 번호등의 휴대폰 번호가 포함되어<br>
+                            있을 경우에는 엑셀파일을 업로드 할 수가 없습니다.<br>
+                            오류번호가 포함되어 있을 경우 다시 파일을 다운로드 하여 체크된<br>
+                            휴대폰 번호를 수정 후 다시 업로드 해주세요.
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="btn-position">
-            <button>확인</button>
+            <button id="orang-btn" class="btn">
+                <span class="btn btn-right">
+                    <span class="btn btn-mid">
+                        확인 
+                    </span>
+                </span>
+            </button>
         </div>
     </div>
 </body>

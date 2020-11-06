@@ -1,3 +1,183 @@
+.table2 {
+    width: 100%;
+}
+
 .event-input {
     width: 100%;
+    padding-left: 3px;
+}
+
+.event-input2 {
+    min-width: 348px;
+    padding-left: 3px;
+    position
+}
+
+.letter-spacing {
+    letter-spacing: 1em;
+}
+
+.byte-rmit {
+    font-size: 12px;
+    position: absolute;
+    top: 4px;
+    right: 3px;
+}
+
+.dif-padding-td {
+    padding: 3px 0 3px 15px ;
+}
+
+.th-color {
+    color: #969696;
+    padding-bottom: 23px;
+}
+
+.padding-diff {
+    padding-bottom: 23px;
+    padding-left: 15px;
+}
+
+.label {
+    position: relative;
+}
+
+.contents-p2 {
+    color: #646464;
+}
+
+.right-section {
+    padding-left: 238px;
+}
+
+.coupon-img-absolute {
+    position: absolute;
+    top: 21px;
+    left: 22px;
+
+}
+
+h2 {
+   font-size: 14.7px;
+   margin-bottom: 11px;
+}
+
+.table3 {
+    display: block;
+    height: 163px;
+    overflow: auto;
+    border-collapse: collapse;
+    border-top: 1px solid #d8b19b;
+    border-bottom: 1px solid #d8b19b;
+    margin-bottom: 10px;
+}
+
+.contents-box2 {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.align-center {
+    text-align: center;
+    padding: 12px 0;
+}
+
+.colored {
+    background-color: #fcf9f8;
+}
+
+.table3 thead tr th {
+    padding: 10px 0;
+    color: #969696;
+    font-weight: bold;
+}
+
+.table3 thead {
+    border-bottom: 1px solid #e6cec0;
+    background-color: #f4e9e3;
+}
+.table3 tbody td {
+    color: #646464;
+    border-top: 1px solid #ead6ca;
+}
+
+.right-section-thead {
+    background: url('../img/divider.png') right center no-repeat;
+}
+
+textarea {
+    resize: none;
+    background-color: #f8f8f8;
+}
+
+.find-files {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.find-files2 {
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.upload-hidden {
+    display: none;
+}
+
+.upload-name {
+    width: 83%;
+    margin-right: 2px;
+}
+
+.upload-name2 {
+    width: 60%;
+    margin-right: 4px;
+}
+
+.btn-label-left {
+    padding: 2px 0 2px 4px;
+    cursor: pointer;
+    background: url('../img/btn-label.png') left center no-repeat;
+}
+
+.btn-label-right {
+    padding: 2px 4px 2px 0;
+    background: url('../img/right-label.png') right center no-repeat;
+}
+
+.btn-label-mid {
+    padding: 2px 0;
+    background: url('../img/mid-label.png') center center repeat-x;
+}
+
+.btn-display {
+    display: inline-block;
+}
+
+.table4 {
+    border-collapse: collapse;
+}
+
+.table4 thead tr th {
+    padding: 10px 0;
+    color: #969696;
+    font-weight: bold;
+}
+
+.table4 thead {
+    border-bottom: 1px solid #e6cec0;
+    background-color: #f4e9e3;
+}
+.table4 tbody td {
+    text-align: center;
+    color: #646464;
+    white-space: nowrap;
+    border-top: 1px solid #ead6ca;
+    border-bottom: 1px solid #ead6ca;
+}
+
+#select {
+    margin-right: 4px;
 }
