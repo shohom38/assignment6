@@ -4,52 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/layer.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
     <title>popup</title>
 </head>
 <body>
-    <div class="popup-display">
-        <h1>쿠폰 이미지 수정하기</h1>
-        <div class="contents-box">
-            <img src="" alt="coupon-img">
-            <div class="title-position">
-                <h1 id="title">쿠폰 이미지 선택</h1>
-            </div>
-            <table>
-                <caption>이벤트당첨내용표</caption>
-                <thead>
-                    <tr>
-                        <th>선택</th>
-                        <th>쿠폰이미지 제목</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><input type="radio" name="" value="" id="gift-img"></td>
-                        <td><label for="gift-img">기프티콘 이미지</label></td>
-                    </tr>
-                    <tr>
-                        <td><input type="radio" name="" value="" id="greentea"></td>
-                        <td>우리 이벤트_하겐다즈_그린티 당첨자</td>
-                    </tr>
-                    <tr>
-                        <td><input type="radio" name="" id="dunkin"></td>
-                        <td>우리 이벤트_던킨 커피&도넛 당첨자</td>
-                    </tr>
-                    <tr>
-                        <td><input type="radio" name="" value="" id="starbucks"></td>
-                        <td>우리 이벤트_스타벅스 아메리카노 tall 당첨자</td>
-                    </tr>
-                </tbody>
-            </table>
-            <h2>・ 텍스트 입력</h2>
-            <form action="post">
-                <textarea name="text-in" id="textarea" cols="30" rows="10">fdsff</textarea>
-            </form>
+    <div class="popup popup-display">
+        <div class="title-position">
+            <h1 id="title">쿠폰 이미지 수정하기</h1>
         </div>
-        <div class="btn-position">
-            <button>수정</button><button>취소</button>
+        <div class="contents-box-top-line">
+            <div class="contents-box2">
+                <img class="coupon-img-absolute" src="../../img/cellphone-img.png" alt="coupon-img">
+                <div class="right-section">
+                    <h2>・ 쿠폰 이미지 선택</h2>
+                    <table class="table3">
+                        <caption>이벤트당첨내용표</caption>
+                        <colgroup>
+                            <col style="width: 22%;">
+                            <col style="width: 78%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th class="right-section-thead" scope="col">선택</th>
+                                <th scope="col">쿠폰이미지 제목</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="align-center"><input type="radio" name="" value="" id="gift-img"></td>
+                                <td><label for="gift-img">기프티콘 이미지</label></td>
+                            </tr>
+                            <tr>
+                                <td class="align-center colored"><input type="radio" name="" value="" id="greentea"></td>
+                                <td>우리 이벤트_하겐다즈_그린티 당첨자</td>
+                            </tr>
+                            <tr>
+                                <td class="align-center"><input type="radio" name="" id="dunkin"></td>
+                                <td>우리 이벤트_던킨 커피&도넛 당첨자</td>
+                            </tr>
+                            <tr>
+                                <td class="align-center"><input type="radio" name="" value="" id="starbucks"></td>
+                                <td>우리 이벤트_스타벅스 아메리카노 tall 당첨자</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h2><label for="textarea">・ 텍스트 입력</label></h2>
+                    <form action="#">
+                        <textarea name="text-in" id="textarea" cols="38" rows="3"></textarea>
+                    </form>
+                    <div class="btn-position">
+                        <button id="orang-btn" class="btn">
+                            <span class="btn btn-right">
+                                <span class="btn btn-mid">
+                                    수정
+                                </span>
+                            </span>
+                        </button>
+                        <button id="cancel-btn" class="btn">
+                            <span class="btn cancel-btn-right">
+                                <span class="btn cancel-btn-mid">
+                                    취소
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

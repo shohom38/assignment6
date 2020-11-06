@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/layer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>popup</title>
+</head>
+<body>
+    <div class="popup popup-display">
+        <div class="title-position">
+            <h1 id="title">MY 캠페인</h1>
+        </div>
+        <div class="contents-box-top-line">
+            <div class="contents-box-bottom-line">
+                <div class="contents-box">
+                    <select name="select" id="select" title="selector">
+                        <option value="선택하기">선택하기</option>
+                        <option value="#">#</option>
+                        <option value="#">#</option>
+                    </select>
+                    <div class="find-files2">
+                        <input type="text" class="upload-name2" value="" disabled="disabled">
+                        <label for="file" class="btn-display btn-label-left">
+                            <span class="btn-display btn-label-right">
+                                <span class="btn-display btn-label-mid">
+                                    조회
+                                </span>
+                            </span>
+                        </label>
+                        <input type="file" id="file" class="upload-hidden">
+                    </div>
+                    <table class="table4">
+                        <caption>캠페인선택표</caption>
+                        <colgroup>
+                            <col style="width: 15%;">
+                            <col style="width: 15%;">
+                            <col style="width: 30%;">
+                            <col style="width: 40%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th class="right-section-thead" scope="col">선택</th>
+                                <th scope="col">NO</th>
+                                <th scope="col">캠페인ID</th>
+                                <th scope="col">캠페인 명</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="align-center"><input type="radio" name="" value="" id="camp1"></td>
+                                <td><label for="camp1">1</label></td>
+                                <td><label for="camp1">M135478</label></td>
+                                <td><label for="camp1">별별별 이벤트</label></td>
+                            </tr>
+                            <tr>
+                                <td class="align-center"><input type="radio" name="camp" value="" id="camp2"></td>
+                                <td><label for="camp2">25</label></td>
+                                <td><label for="camp2">M135478</label></td>
+                                <td><label for="camp2">별별별 이벤트 3!4!</label></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="btn-position">
+            <button id="orang-btn" class="btn">
+                <span class="btn btn-right">
+                    <span class="btn btn-mid">
+                        확인 
+                    </span>
+                </span>
+            </button>
+        </div>
+    </div>
+</body>
+</html>

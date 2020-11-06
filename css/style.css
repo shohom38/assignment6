@@ -8,11 +8,6 @@
 .popup {
     display: inline-block;
     border: 3px solid #c6c6c6;
-    margin: 0 auto;
-}
-
-.popup-display {
-    width: 702px;
 }
 
 .title-position {
@@ -42,6 +37,7 @@
 }
 
 .contents-box {
+    position: relative;
     padding: 20px;
     margin-bottom: 12px;
 }
@@ -85,6 +81,7 @@ button {
     margin-bottom: 10px;
     cursor: pointer;
     font-size: 12.5px;
+    font-weight: bold;
     color: #ffffff;
 }
 
@@ -133,7 +130,7 @@ button {
     background: url('../img/cancel-btn-mid.png') center center repeat-x;
 }
 
-.contents-box p {
+.contents-p1 {
     font-size: 11px;
     color: #a9a9a9;
     margin-bottom: 17px;
@@ -177,9 +174,11 @@ caption {
     border: 1px solid #efefef;
     color: #969696;
     background-color: #f6f6f6;
+    padding: 11px 0;
 }
 
 th {
+    font-size: 12px;
     font-weight: normal;
     white-space: nowrap;
 }
@@ -188,12 +187,15 @@ th {
     border-left: none;
 }
 
-th, td {
-    padding: 11px 0;
+
+.table1 td {
+    padding: 8px 0;
+    padding-left: 15px;
 }
 
 td {
-    padding-left: 15px;
+    font-size: 12px;
+    position: relative;
 }
 
 .arrow-right {
