@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.popup {
+    display: inline-block;
+    border: 3px solid #c6c6c6;
+    margin: 0 auto;
+}
+
+.popup-display {
+    width: 702px;
+}
+
+.title-position {
+    position: relative;
+    padding: 16px 15px 15px 10px;
+}
+
+#title {
+    font-size: 16.5px;
+    padding-left: 10px;
+    background: url('../img/marker.png') left center no-repeat;
+}
+
+.exit-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 21px;
+    right: 18px;
+}
+
+.contents-box-top-line {
+    background: url('../img/top-bar.png') center top repeat-x;
+}
+
+.contents-box-bottom-line {
+    background: url('../img/top-bar.png') center bottom repeat-x;
+}
+
+.contents-box {
+    padding: 20px;
+    margin-bottom: 12px;
+}
+
+#sub-title {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+}
+
+ul {
+    display: inline-block;
+    font-size: 11px;
+}
+
+.inside-list {
+    padding: 8px 0 0 10px;
+    list-style-position: inside;
+    background: url('../img/list-style-slide.png') 2px 13px no-repeat;
+}
+
+.inside-list span {
+    padding-left: 53px;
+}
+
+li {
+    background: url('../img/list-style-dot.png') no-repeat 0 5px;
+    list-style-type: none;
+    padding: 0 0 8px 10px;
+}
+
+.btn-position {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+}
+
+button {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 12.5px;
+    color: #ffffff;
+}
+
+#orang-btn, #cancel-btn {
+    border: none;
+    padding-left: 3px;
+}
+
+.btn-right, .cancel-btn-right {
+    padding-right: 4px;
+}
+
+.btn-mid, .cancel-btn-mid {
+    padding: 6px 14px;
+}
+
+.refund-btn {
+    padding: 6px 4px;
+}
+
+.cancel-btn-mid {
+    color: #898989;
+}
+
+#orang-btn {
+    background: url('../img/btn1-left.png') left center no-repeat;
+}
+
+#cancel-btn {
+    background: url('../img/cancel-btn-left.png') left center no-repeat;
+}
+
+.btn-right {
+    background: url('../img/btn1-right.png') right center no-repeat;
+}
+
+.cancel-btn-right {
+    background: url('../img/cancel-btn-right.png') right center no-repeat;
+}
+
+.btn-mid {
+    background: url('../img/btn1-mid.png') center center repeat-x;
+}
+
+.cancel-btn-mid {
+    background: url('../img/cancel-btn-mid.png') center center repeat-x;
+}
+
+.contents-box p {
+    font-size: 11px;
+    color: #a9a9a9;
+    margin-bottom: 17px;
+}
+
+.contents-box p a {
+    text-decoration: none;
+    color: #ff5f28;
+}
+
+caption {
+    display: none;
+}
+
+.dot-box {
+    padding: 15px 0;
+    background: url('../img/dot-line.png') center top repeat-x;
+}
+
+.dot-box:last-child {
+    padding: 15px 0 0 0;
+}
+
+.table1 {
+    width: 100%;
+    border-top: 1px solid #dedfde;
+    border-bottom: 1px solid #dedfde;
+    border-collapse: collapse;
+    padding: 11px 0;
+    font-size: 11px;
+    color: #646464;
+}
+
+
+.table1 tr {
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+
+.table1 th {
+    border: 1px solid #efefef;
+    color: #969696;
+    background-color: #f6f6f6;
+}
+
+th {
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.nouse-left-border {
+    border-left: none;
+}
+
+th, td {
+    padding: 11px 0;
+}
+
+td {
+    padding-left: 15px;
+}
+
+.arrow-right {
+    display: inline-block;
+    background: url('../img/arrow.png') right center no-repeat;
+    padding-right: 13px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
