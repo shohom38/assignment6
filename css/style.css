@@ -60,6 +60,10 @@
     font-size: 12px;
 }
 
+.fs12 {
+    font-size: 12px;
+}
+
 .inside-list {
     padding: 8px 0 0 10px;
     list-style-position: inside;
