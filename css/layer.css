@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.popup-display {
+    margin: 0 auto;
+}
+
 .event-input {
     width: 100%;
     padding-left: 3px;
@@ -28,6 +32,10 @@
     padding: 3px 0 3px 15px ;
 }
 
+.thtd-fs {
+    font-size: 12px;
+}
+
 .th-color {
     color: #969696;
     padding-bottom: 23px;
@@ -43,7 +51,9 @@
 }
 
 .contents-p2 {
+    font-size: 12px;
     color: #646464;
+    margin-bottom: 17px;
 }
 
 .right-section {
@@ -58,18 +68,15 @@
 }
 
 h2 {
-   font-size: 14.7px;
-   margin-bottom: 11px;
+    color: #6f6f6f;
+    font-size: 14.7px;
+    margin-bottom: 11px;
 }
 
 .table3 {
     display: block;
-    height: 163px;
-    overflow: auto;
     border-collapse: collapse;
     border-top: 1px solid #d8b19b;
-    border-bottom: 1px solid #d8b19b;
-    margin-bottom: 10px;
 }
 
 .contents-box2 {
@@ -91,13 +98,21 @@ h2 {
     padding: 10px 0;
     color: #969696;
     font-weight: bold;
+    min-width: 62px;
 }
 
-.table3 thead {
-    border-bottom: 1px solid #e6cec0;
+.table3-thead {
     background-color: #f4e9e3;
 }
-.table3 tbody td {
+
+.table3-tbody {
+    border-bottom: 1px solid #e6cec0;
+    margin-bottom: 20px;
+    height: 130px;
+    overflow: auto;
+}
+
+.table3-tbody tr{
     color: #646464;
     border-top: 1px solid #ead6ca;
 }
@@ -108,7 +123,9 @@ h2 {
 
 textarea {
     resize: none;
+    border: 0.1px solid #e5e5e5;
     background-color: #f8f8f8;
+    margin-bottom: 20px;
 }
 
 .find-files {
@@ -120,6 +137,8 @@ textarea {
     display: inline-block;
     font-size: 12px;
     margin-bottom: 12px;
+    position: relative;
+    width: 100%;
 }
 
 .upload-hidden {
@@ -127,12 +146,12 @@ textarea {
 }
 
 .upload-name {
-    width: 83%;
+    width: 76%;
     margin-right: 2px;
 }
 
 .upload-name2 {
-    width: 60%;
+    width: 63%;
     margin-right: 4px;
 }
 
@@ -148,7 +167,7 @@ textarea {
 }
 
 .btn-label-mid {
-    padding: 2px 0;
+    padding: 3px 10px;
     background: url('../img/mid-label.png') center center repeat-x;
 }
 
@@ -156,8 +175,15 @@ textarea {
     display: inline-block;
 }
 
+.search-btn-position {
+    position: absolute;
+    top: -5px;
+    right: 2px;
+}
+
 .table4 {
     border-collapse: collapse;
+    width: 100%;
 }
 
 .table4 thead tr th {
@@ -176,6 +202,7 @@ textarea {
     white-space: nowrap;
     border-top: 1px solid #ead6ca;
     border-bottom: 1px solid #ead6ca;
+    min-width: 54px;
 }
 
 #select {

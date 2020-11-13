@@ -17,38 +17,47 @@
             <div class="contents-box2">
                 <img class="coupon-img-absolute" src="../../img/cellphone-img.png" alt="coupon-img">
                 <div class="right-section">
-                    <h2>・ 쿠폰 이미지 선택</h2>
-                    <table class="table3">
-                        <caption>이벤트당첨내용표</caption>
-                        <colgroup>
-                            <col style="width: 22%;">
-                            <col style="width: 78%;">
-                        </colgroup>
-                        <thead>
-                            <tr>
-                                <th class="right-section-thead" scope="col">선택</th>
-                                <th scope="col">쿠폰이미지 제목</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="align-center"><input type="radio" name="" value="" id="gift-img"></td>
-                                <td><label for="gift-img">기프티콘 이미지</label></td>
-                            </tr>
-                            <tr>
-                                <td class="align-center colored"><input type="radio" name="" value="" id="greentea"></td>
-                                <td>우리 이벤트_하겐다즈_그린티 당첨자</td>
-                            </tr>
-                            <tr>
-                                <td class="align-center"><input type="radio" name="" id="dunkin"></td>
-                                <td>우리 이벤트_던킨 커피&도넛 당첨자</td>
-                            </tr>
-                            <tr>
-                                <td class="align-center"><input type="radio" name="" value="" id="starbucks"></td>
-                                <td>우리 이벤트_스타벅스 아메리카노 tall 당첨자</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <form action="#">
+                        <h2>・ 쿠폰 이미지 선택</h2>
+                        <table class="table3 table3-thead">
+                            <caption>이벤트당첨내용제목표</caption>
+                            <colgroup>
+                                <col style="width: 22%;">
+                                <col style="width: 78%;">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th class="right-section-thead" scope="col">선택</th>
+                                    <th scope="col">쿠폰이미지 제목</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table3 table3-tbody">
+                            <caption>이벤트당첨내용표</caption>
+                            <colgroup>
+                                <col style="width: 22%;">
+                                <col style="width: 78%;">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td class="align-center"><input type="radio" name="chk" value="gift" id="gift-img"></td>
+                                    <td><label for="gift-img">기프티콘 이미지</label></td>
+                                </tr>
+                                <tr>
+                                    <td class="align-center colored"><input type="radio" name="chk" value="greentea" id="greentea-gift"></td>
+                                    <td class="colored"><label for="greentea-gift">우리 이벤트_하겐다즈_그린티 당첨자</label></td>
+                                </tr>
+                                <tr>
+                                    <td class="align-center"><input type="radio" name="chk" value="dunkin" id="dunkin"></td>
+                                    <td><label for="dunkin">우리 이벤트_던킨 커피&도넛 당첨자</label></td>
+                                </tr>
+                                <tr>
+                                    <td class="align-center"><input type="radio" name="chk" value="starbucks" id="starbucks"></td>
+                                    <td><label for="starbucks">우리 이벤트_스타벅스 아메리카노 tall 당첨자</label></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
                     <div class="btn-position">
                         <button id="orang-btn" class="btn">
                             <span class="btn btn-right">

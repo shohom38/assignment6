@@ -7,7 +7,9 @@
 
 .popup {
     display: inline-block;
+    margin: 0 auto;
     border: 3px solid #c6c6c6;
+    min-width: 421px;
 }
 
 .title-position {
@@ -16,9 +18,14 @@
 }
 
 #title {
+    color: #585858;
     font-size: 16.5px;
     padding-left: 10px;
     background: url('../img/marker.png') left center no-repeat;
+}
+
+#title>span {
+    color: #959595;
 }
 
 .exit-btn {
@@ -40,6 +47,7 @@
     position: relative;
     padding: 20px;
     margin-bottom: 12px;
+    color: #646464;
 }
 
 #sub-title {
@@ -48,25 +56,45 @@
     padding: 0 0 10px 0;
 }
 
-ul {
-    display: inline-block;
-    font-size: 11px;
+.exel-upload {
+    font-size: 12px;
+}
+
+.fs12 {
+    font-size: 12px;
 }
 
 .inside-list {
     padding: 8px 0 0 10px;
     list-style-position: inside;
-    background: url('../img/list-style-slide.png') 2px 13px no-repeat;
+    list-style-type: none;
+    background: url('../img/list-style-slide.png') 2px 16px no-repeat;
 }
 
 .inside-list span {
     padding-left: 53px;
 }
 
-li {
-    background: url('../img/list-style-dot.png') no-repeat 0 5px;
+
+.list-style-dot {
+    background: url('../img/list-style-dot.png') 3px 7px no-repeat;
     list-style-type: none;
     padding: 0 0 8px 10px;
+    font-size: 11px;
+}
+
+.no-list-style {
+    list-style: none;
+    padding-left: 10px;
+    font-size: 11px;
+}
+
+.no-list-style:last-child {
+    padding-top: 8px
+}
+
+.list-container {
+    margin-bottom: 17px;
 }
 
 .btn-position {
@@ -80,7 +108,7 @@ li {
 button {
     margin-bottom: 10px;
     cursor: pointer;
-    font-size: 12.5px;
+    font-size: 12px;
     font-weight: bold;
     color: #ffffff;
 }
@@ -193,9 +221,9 @@ th {
     padding-left: 15px;
 }
 
-td {
-    font-size: 12px;
-    position: relative;
+
+.center-align {
+    text-align: center;
 }
 
 .arrow-right {
