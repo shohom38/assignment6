@@ -6,6 +6,10 @@
     margin: 0 auto;
 }
 
+.display9 {
+    min-width: 545px;
+}
+
 .event-input {
     width: 100%;
     padding-left: 3px;
@@ -30,6 +34,7 @@
 
 .dif-padding-td {
     padding: 3px 0 3px 15px ;
+    position: relative;
 }
 
 .thtd-fs {
@@ -109,6 +114,7 @@ h2 {
     border-bottom: 1px solid #e6cec0;
     margin-bottom: 20px;
     height: 130px;
+    width: 330px;
     overflow: auto;
 }
 
@@ -207,4 +213,18 @@ textarea {
 
 #select {
     margin-right: 4px;
+}
+
+
+.dif-color {
+    min-width: 165px;
+    padding: 0 10px;
+}
+
+.white-color {
+    padding: 0 10px;
+}
+
+.popup13 {
+    width: 248px;
 }
