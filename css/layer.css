@@ -1,13 +1,15 @@
+
+.popup-display {
+    margin: 0 auto;
+    border: 3px solid #c6c6c6;
+}
+
 .table2 {
     width: 100%;
 }
 
-.popup-display {
-    margin: 0 auto;
-}
-
-.display9 {
-    min-width: 545px;
+.popup-display9 {
+    width: 545px;
 }
 
 .event-input {
@@ -18,7 +20,6 @@
 .event-input2 {
     min-width: 348px;
     padding-left: 3px;
-    position
 }
 
 .letter-spacing {
@@ -59,10 +60,12 @@
     font-size: 12px;
     color: #646464;
     margin-bottom: 17px;
+    background: url('../img/list-style-dot.png') left center no-repeat;
+    padding-left: 7px;
 }
 
 .right-section {
-    padding-left: 238px;
+    padding-left: 220px;
 }
 
 .coupon-img-absolute {
@@ -75,7 +78,7 @@
 h2 {
     color: #6f6f6f;
     font-size: 14.7px;
-    margin-bottom: 11px;
+    margin-bottom: 6px;
 }
 
 .table3 {
@@ -87,12 +90,18 @@ h2 {
 .contents-box2 {
     position: relative;
     padding: 20px;
-    margin-bottom: 100px;
+    padding-top: 17px;
 }
 
 .align-center {
     text-align: center;
-    padding: 12px 0;
+    padding: 9px 0;
+    width: 62px;
+}
+
+.td-div {
+    padding: 4px 0 9px 19px;
+    width: 309px;
 }
 
 .colored {
@@ -100,7 +109,7 @@ h2 {
 }
 
 .table3 thead tr th {
-    padding: 10px 0;
+    padding: 8px 0;
     color: #969696;
     font-weight: bold;
     min-width: 62px;
@@ -112,9 +121,8 @@ h2 {
 
 .table3-tbody {
     border-bottom: 1px solid #e6cec0;
-    margin-bottom: 20px;
+    margin-bottom: 11px;
     height: 130px;
-    width: 330px;
     overflow: auto;
 }
 
@@ -131,7 +139,7 @@ textarea {
     resize: none;
     border: 0.1px solid #e5e5e5;
     background-color: #f8f8f8;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
 }
 
 .find-files {
@@ -157,7 +165,7 @@ textarea {
 }
 
 .upload-name2 {
-    width: 63%;
+    width: 61%;
     margin-right: 4px;
 }
 
@@ -187,13 +195,18 @@ textarea {
     right: 2px;
 }
 
+.contents-box4 {
+    padding: 17px 20px 20px 20px;
+    margin-bottom: 9px;
+}
+
 .table4 {
     border-collapse: collapse;
     width: 100%;
 }
 
 .table4 thead tr th {
-    padding: 10px 0;
+    padding: 7px 0 8px 0;
     color: #969696;
     font-weight: bold;
 }
@@ -217,12 +230,23 @@ textarea {
 
 
 .dif-color {
-    min-width: 165px;
-    padding: 0 10px;
+    font-size: 11px;
+    min-width: 164px;
+    padding: 0 6px;
+}
+
+.dif-dot {
+    background: url('../img/list-style-dot.png') 5px 10px no-repeat;
+}
+
+.dif-padding-list {
+    padding-top: 3px;
 }
 
 .white-color {
-    padding: 0 10px;
+    min-width: 164px;
+    font-size: 11px;
+    padding: 0 6px;
 }
 
 .popup13 {
